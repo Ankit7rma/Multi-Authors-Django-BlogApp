@@ -20,7 +20,7 @@
 
 ### How to SETup in Windows/MAC/Linux
 
-1. Clone this Project <code>git clone https://github.com/yeazin/Multi-Authors-advanced-Django-Blog.git </code>
+1. Clone this Project <code>git clone (https://github.com/Ankit7rma/Multi-Authors-Django-BlogApp)</code>
 2. Go to Project Directory <code>cd Multi-Authors-advanced-Django-Blog </code>
 3. Create a Virtual Environment :-
    - for Windows <code>python -m venv env </code>
