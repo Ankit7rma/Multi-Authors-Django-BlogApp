@@ -98,7 +98,7 @@
 ### Issues & Questions
 
 This project is scalable. Anyone can contribute here. Anyone can use it as it is Under **MIT License** .<br>
-If anyone wants to contribute to the project then first make an [Issues](https://github.com/yeazin/Multi-Authors-advanced-Django-Blog/issues) here.<br>
+If anyone wants to contribute to the project then first make an [Issues](https://github.com/Ankit7rma/Multi-Authors-Django-BlogApp/tree/master?tab=readme-ov-file) here.<br>
 For further information anyone can knock me at **Email** & **Facebook** which is given in the [Owner Info](#repository-owner-info). <br>
 Thanks !!!<br>
 
