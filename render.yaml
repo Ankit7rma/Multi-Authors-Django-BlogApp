@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: multi-authors-blog
+    env: python
+    buildCommand: apt-get update && apt-get install -y libfreetype6-dev
+      pip install --only-binary=:all: reportlab==3.6.12
+      pip install -r requirements.txt
+    startCommand: gunicorn blog.wsgi:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: DEBUG
+        value: False
+      - key: SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: multi-authors-blog-db
+          property: connectionString
+
+databases:
+  - name: multi-authors-blog-db
+    databaseName: blogdb
+    user: blog_user
+    plan: free
