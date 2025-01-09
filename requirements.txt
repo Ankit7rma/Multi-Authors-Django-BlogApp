@@ -1,4 +1,5 @@
-arabic-reshaper==2.0.15 --no-deps
+arabic-reshaper>=2.1.0
+
 xhtml2pdf==0.2.5
 
 asgiref==3.3.1
